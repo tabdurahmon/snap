@@ -1,3 +1,20 @@
+/* epilogue-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/epilogue-v17-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/epilogue-v17-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -72,6 +89,7 @@ body {
   margin-top: 26px;
   gap: 40px;
   margin-right: 40px;
+  color: #686868;
 }
 
 .btn-item__two {
@@ -85,6 +103,8 @@ body {
   border-color: #686868;
   align-items: center;
   margin-top: -13px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
 
   &:hover {
     background-color: rgba(255, 255, 255, 1);
@@ -114,6 +134,8 @@ body {
   line-height: 80px;
   letter-spacing: -1.1111111640930176px;
   text-align: left;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
 }
 .main-description {
   width: 350px;
@@ -124,6 +146,8 @@ body {
   line-height: 28px;
   letter-spacing: 0px;
   text-align: left;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
 }
 .main-btn {
   width: 163px;
@@ -139,6 +163,8 @@ body {
   color: #fff;
   margin-top: 51px;
   border: 2px solid #151515;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
 
   &:hover {
     background-color: #fff;
